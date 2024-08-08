@@ -38,6 +38,16 @@ h2 {
     letter-spacing: 1px; 
     background: linear-gradient(90deg, #28a745, #ffffff); 
     -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+
+.text-background {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    background-clip: text; 
     color: transparent; 
 }
 
